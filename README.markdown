@@ -36,7 +36,7 @@ Once installed, import the library into your script and convert a dict into xml 
 Alternately, you can import the `dict2xml()` function from the library.
 
     >>> from dict2xml import dict2xml
-    >>> xml = dict2xml(some_object)
+    >>> xml = dict2xml(some_dict)
 
 That's it!
 
