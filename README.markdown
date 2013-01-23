@@ -2,7 +2,7 @@
 
 ### Summary
 
-The original library (http://github.com/quandyfactory/dict2xml/) Converts a native Python dictionary into an XML string. This is a hacky alteration to allow the library to generate invalid XML - Discusting as this is, I needed it for a Git post-receive script
+The original library (http://github.com/quandyfactory/dict2xml/) Converts a native Python dictionary into an XML string. This is a hacky alteration to allow the library to generate invalid XML - Disgusting as this is, I needed it for a Git post-receive script
 
 ### Details
 
