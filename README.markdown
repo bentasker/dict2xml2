@@ -50,12 +50,11 @@ You can also enable debugging information.
     
     >>> xml = dict2xml2.dict2xml2(some_object)
 
-If you encounter any errors in the code, please file an issue: <https://github.com/quandyfactory/dict2xml/issues>
 
 ### Author
 
 * Author: Ben Tasker
-* Email: [dict2xml2@bentasker.co.uk]
+* Email: dict2xml2@bentasker.co.uk
 * Repository: [http://github.com/bentasker/dict2xml2](http://github.com/bentasker/dict2xml2)
 
 
