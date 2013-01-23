@@ -3,7 +3,7 @@ from distutils.core import setup
 version = '0.7'
 
 setup(
-    name = 'dict2xml',
+    name = 'dict2xml2',
     version = version,
     description = 'Converts a native Python dictionary into an XML string.',
     long_description = """* Supports item (`int`, `float`, `bool`, `str`, `unicode`, `datetime`) and collection (`list`, `set` and `dict`) data types with arbitrary nesting for the collections. Datetime objects are converted to ISO format strings.
@@ -18,10 +18,10 @@ setup(
 
 * Elements with an unsupported data type raise a TypeError exception.
     """,
-    author = 'Ryan McGreal',
-    author_email = 'ryan@quandyfactory.com',
+    author = 'B Tasker, based on work by Ryan McGreal',
+    author_email = 'dict2xml2@bentasker.co.uk',
     license = 'GNU General Public Licence, Version 2',
-    url = 'https://github.com/quandyfactory/dict2xml',
-    py_modules = ['dict2xml'],
+    url = 'https://github.com/bentasker/dict2xml',
+    py_modules = ['dict2xml2'],
     download_url = 'https://github.com/quandyfactory/dict2xml/blob/master/dist/dict2xml-%s.tar.gz?raw=true' % (version),
 )
