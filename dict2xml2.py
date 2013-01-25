@@ -107,7 +107,7 @@ def convert_kv(k, v, attribs):
     if attribs == True:
       return '<%s type="%s">%s</%s>' % (k, type(v).__name__ if type(v).__name__ != 'unicode' else 'str', xml_escape(v), k)
     else:
-      return '<%s%s>%s</%s>' % (k, '' if type(v).__name__ != '' else '', xml_escape(v), k)
+      return '<%s>%s</%s>' % (k, xml_escape(v), k)
 
 
 def convert_bool(k, v, attribs):

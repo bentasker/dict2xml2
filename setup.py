@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-version = '0.7'
+version = '0.1'
 
 setup(
     name = 'dict2xml2',
@@ -23,5 +23,5 @@ setup(
     license = 'GNU General Public Licence, Version 2',
     url = 'https://github.com/bentasker/dict2xml',
     py_modules = ['dict2xml2'],
-    download_url = 'https://github.com/quandyfactory/dict2xml/blob/master/dist/dict2xml-%s.tar.gz?raw=true' % (version),
+    download_url = 'https://github.com/bentasker/dict2xml2/raw/master/dist/dict2xml2-%s.tar.gz?raw=true' % (version),
 )
